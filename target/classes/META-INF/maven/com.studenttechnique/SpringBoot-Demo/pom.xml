@@ -9,33 +9,17 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.studenttechnique</groupId>
-	<artifactId>springbootProject</artifactId>
+	<artifactId>SpringBoot-Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springbootProject</name>
-	<description>Demo project for Spring Boot</description>
+	<name>SpringBoot-Demo</name>
+	<description>Demo project for Spring Boot for beginners</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-oauth2-client</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web-services</artifactId>
 		</dependency>
 
 		<dependency>
@@ -43,10 +27,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
+    		<groupId>io.springfox</groupId>
+    		<artifactId>springfox-boot-starter</artifactId>
+    		<version>3.0.0</version>
+		</dependency>
+
+		<dependency>
+    		<groupId>io.springfox</groupId>
+   		    <artifactId>springfox-swagger-ui</artifactId>
+    		<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
